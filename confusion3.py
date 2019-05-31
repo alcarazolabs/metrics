@@ -37,11 +37,5 @@ FDR = FP/(TP+FP)
 ACC = (TP+TN)/(TP+FP+FN+TN)
 
 print(TPR)
-#This return:
-"""
-[[1.         1.05970149 0.95522388]
- [0.87012987 0.92207792 0.83116883]
- [1.01515152 1.07575758 0.96969697]]
+#If we want to get the TP it returns one array of three cols 0 rows.. first col is first class.. anyways. thanks to stackoverflow.com
 
-"""
-#Recall from pycm => 1.0           0.92208       0.9697
